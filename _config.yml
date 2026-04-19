@@ -1,0 +1,57 @@
+# 博客配置
+title: "贰只晓鱼的技术博客"
+description: "分享OpenClaw配置、自动化工具开发、技术教程"
+baseurl: "" # 子目录路径，如果没有就留空
+url: "https://2026erzhixiaoyu.github.io" # 你的GitHub Pages地址
+
+# 作者信息
+author:
+  name: "贰只晓鱼"
+  email: "3962235311@qq.com"
+  github: "2026erzhixiaoyu"
+  wechat: "XY18321979968"
+  feishu: "贰只晓鱼"
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/page:num/"
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO优化
+seo:
+  title: "贰只晓鱼 - OpenClaw配置专家"
+  description: "专业的OpenClaw配置指南、自动化工具开发、技术教程分享"
+  keywords: "OpenClaw, AI助手, 自动化, GitHub, 技术教程, 配置指南"
+
+# 社交媒体
+social:
+  github: "2026erzhixiaoyu"
+  # 可以添加更多社交媒体链接
+
+# 评论系统（可选）
+comments: false
+
+# 分析统计（可选）
+analytics:
+  google: "" # Google Analytics ID
+  baidu: "" # 百度统计ID
+
+# 自定义设置
+custom:
+  service_offerings:
+    - "OpenClaw配置指导"
+    - "自动化工作流定制"
+    - "GitHub工具开发"
+    - "企业级部署支持"
+  contact:
+    wechat: "XY18321979968"
+    email: "3962235311@qq.com"
+    feishu: "贰只晓鱼"
